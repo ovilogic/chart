@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+
+    width: 100vw;
+    height: 100vh;
+}
+
+.frame {
+    width: 20%;
+    height: 60%;
+    background-color: aqua;
+    opacity: 0.2;
+    display: inline-block;
+    position: relative;
+    top: -210px;
+
+}
+
+.chart {
+    border: 2px solid green;
+
+    height: 80%;
+
+}
+
+.bar {
+    width: 16px;
+    display: inline-block;
+    background-color: black;
+    margin: 5px;
+}
+
+.bar:hover {
+    fill: yellow;
+}
+
+svg {
+    background-color: pink;
+
+}
