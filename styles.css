@@ -5,38 +5,37 @@
 
 body {
 
-    width: 100vw;
-    height: 100vh;
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10vh;
+
 }
 
 .frame {
-    width: 20%;
-    height: 60%;
-    background-color: aqua;
-    opacity: 0.2;
+    border: 3px black solid;
     display: inline-block;
-    position: relative;
-    top: -210px;
-
+    background-color: lightyellow;
+    text-align: center;
+    box-shadow: 0px 0px 30px black;
 }
 
-.chart {
-    border: 2px solid green;
+a {
+    text-decoration: none;
+}
 
-    height: 80%;
-
+h4 {
+    text-align: right;
+    margin-right: 5%;
 }
 
 .bar {
-    width: 4%;
-    display: inline-block;
-    background-color: black;
-    margin-right: 15px;
+    width: 4.1%;
+
+
 }
 
 .bar:hover {
     fill: yellow;
-
 }
 
 svg {
